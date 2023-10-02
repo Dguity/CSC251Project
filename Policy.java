@@ -22,8 +22,12 @@ public class Policy
       this.height = 0.0;
       this.weight = 0.0;
    } 
-
-        //constructor with arguments
+    /**
+    The method below displays the result of each variable.
+    @param
+    @param
+    */
+        //Constructor with arguments
    public Policy(String policyNumber, String providerName, String policyholderFirstName,
                   String policyholderLastName, int policyholderAge, String smokingStatus,
                   double height, double weight) 
@@ -38,7 +42,9 @@ public class Policy
       this.weight = weight;
    }
 
-
+   /**
+   @return getting the information you need
+   */
     // Set and get what you need
    public String getPolicyNumber() 
    {
