@@ -44,6 +44,7 @@ public class Policy
 
    /**
    @return getting the information you need
+   @return set it up
    */
     // Set and get what you need
    public String getPolicyNumber() 
