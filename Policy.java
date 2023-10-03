@@ -1,3 +1,5 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Policy 
@@ -10,6 +12,7 @@ public class Policy
    private String smokingStatus;
    private double height;
    private double weight;
+   
      //No-arg constructor     
    public Policy()
    {
@@ -145,7 +148,8 @@ public class Policy
    {
       return (weight * 703) / (height * height);
    }
-
+   
+     
     //calulate policy price
    public double calculatePolicyPrice() 
    {
